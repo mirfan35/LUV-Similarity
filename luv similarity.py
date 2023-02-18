@@ -45,9 +45,6 @@ def LuvSimilarity(img1, img2):
 	tet = 1-(tet/aref)
 	tet[tet<0] = 0
 	return euc*tet
-
-def sigmoid(x, a=1, b=0, c=1, d=0):
-	return a/(1+np.exp((b-x)/c))+d
 	
 ##################################################################################
 # main
