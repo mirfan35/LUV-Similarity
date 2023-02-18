@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 ##################################################################################
-# conver bgr to image
+# convert bgr to image
 ################################################################################## 
 def colour2img(b,g,r,h=1,w=1):
 	res = np.empty((h,w,3), dtype=np.uint8)
